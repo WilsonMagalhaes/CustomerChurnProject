@@ -1,2 +1,8 @@
 Deployment:
-The project is deployed on Streamlit Cloud, allowing users to interact with the model through a web interface. Users can input individual customer details for real-time predictions or upload a CSV file for batch predictions. The app also displays visual feedback such as churn probabilities and visualizations like confusion matrices and prediction distributions.
+
+The project is deployed on Streamlit Cloud, enabling users to interact with the customer churn prediction model via a web interface. Users have two options for predictions:
+
+1 - Individual Predictions: Input individual customer details to receive real-time predictions.
+2 - Batch Predictions: Upload a CSV file with multiple customers' data to generate predictions for all entries at once.
+
+After the predictions are made, the app allows users to download the updated CSV file with an additional column, "Prediction", containing the results.
