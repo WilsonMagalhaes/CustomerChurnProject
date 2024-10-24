@@ -13,10 +13,10 @@ from transformxfunctionFinal import transformX
 import pandas as pd
 
 full_pipeline = joblib.load("src/full_pipeline.pkl")
-categorical_columns = joblib.load("categorical_columns.pkl")
-categorical_columns_two_options = joblib.load("categorical_columns_two_options.pkl")
-model = joblib.load("abFinal.pkl")
-optimal_threshold = joblib.load("optimal_threshold.pkl")
+categorical_columns = joblib.load("src/categorical_columns.pkl")
+categorical_columns_two_options = joblib.load("src/categorical_columns_two_options.pkl")
+model = joblib.load("src/abFinal.pkl")
+optimal_threshold = joblib.load("src/optimal_threshold.pkl")
 
 # Load the machine learning model (replace with your specific loading logic)
 #model = full_pipeline.load_model()
