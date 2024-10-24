@@ -1,0 +1,6 @@
+Future Work & Improvements:
+- Model Improvement: Explore additional algorithms or ensemble methods to improve performance.
+- Feature Engineering: Investigate new features or feature interactions.
+- Platform Expansion: Consider deploying the app on other platforms like Heroku or building a mobile-friendly interface.
+- Real-time Data Integration: Implement a real-time data feed for automatic updates.
+- Explainability: Use model explainability techniques (e.g., SHAP values) to provide more transparency into the predictions.

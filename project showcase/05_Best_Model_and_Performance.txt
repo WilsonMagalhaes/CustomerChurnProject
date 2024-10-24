@@ -1,0 +1,16 @@
+Best Model & Performance:
+- Best Model: AdaBoost
+- Best Parameters: {'learning_rate': 0.5, 'n_estimators': 200}
+- Optimal Threshold: 0.5669 (based on maximizing F1 score)
+- Performance Metrics:
+  - F1 Score: 0.683
+  - Precision: 0.63
+  - Recall: 0.75
+  - Accuracy with Optimal Threshold: 81.69%
+- Confusion Matrix:
+  - Predicted Churn:
+    - True Negatives: 84.1%
+    - False Positives: 15.9%
+  - Predicted Not Churn:
+    - False Negatives: 25.1%
+    - True Positives: 74.9%

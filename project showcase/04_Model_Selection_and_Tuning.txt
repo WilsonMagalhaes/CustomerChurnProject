@@ -1,0 +1,15 @@
+Model Selection & Tuning:
+- Resampling: To address class imbalance, SMOTEENN() was used on the training data to balance the classes.
+- Model Testing: The following models were tested:
+  - Random Forest
+  - Gradient Boosting
+  - Support Vector Machine (SVM)
+  - Logistic Regression
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree
+  - AdaBoost
+  - XGBoost
+  - Naive Bayes
+- Grid Search: GridSearchCV was used to optimize hyperparameters for each model.
+- Feature Selection: SelectKBest was applied to select the most important features.
+- Class Balancing: Applied class_weight='balanced' for some models.

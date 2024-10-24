@@ -1,0 +1,2 @@
+Deployment:
+The project is deployed on Streamlit Cloud, allowing users to interact with the model through a web interface. Users can input individual customer details for real-time predictions or upload a CSV file for batch predictions. The app also displays visual feedback such as churn probabilities and visualizations like confusion matrices and prediction distributions.

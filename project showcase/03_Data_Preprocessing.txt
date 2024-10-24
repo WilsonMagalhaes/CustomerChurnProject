@@ -1,0 +1,9 @@
+Data Preprocessing:
+- Encoding: Applied OneHotEncoder for categorical variables with more than two options and OrdinalEncoder for those with only two options (typically "Yes" and "No").
+- Scaling: Used StandardScaler to scale numerical features.
+- Missing Values: Although the original dataset had no missing values, SimpleImputer(strategy='median') was applied to numeric features and SimpleImputer(strategy='most_frequent') to categorical features in the pipeline to handle potential missing values after encoding.
+- Feature Engineering:
+  - Dropped the customerID column as it doesn't provide predictive value.
+  - Converted the TotalCharges column to numeric (initially read as categorical).
+  - Created a new feature Tenure_MonthlyCharges by multiplying tenure by MonthlyCharges.
+- Target Variable: Encoded the Churn column using OrdinalEncoder.

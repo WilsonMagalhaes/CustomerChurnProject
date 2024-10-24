@@ -1,0 +1,6 @@
+Customer Churn Prediction for Telco Company
+In this project, I developed a machine learning model to predict customer churn for a telecommunications company. 
+The goal is to identify which customers are likely to stop using the service, enabling the company to take proactive measures to retain them. 
+This project was implemented as part of my data science portfolio to demonstrate my ability to handle end-to-end machine learning workflows, 
+from data preprocessing to model deployment. 
+The final model has been deployed using Streamlit Cloud, where users can input customer information to predict churn or upload CSV files for batch predictions.

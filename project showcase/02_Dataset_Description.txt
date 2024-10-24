@@ -1,0 +1,4 @@
+Dataset Description:
+The dataset used for this project is the Telco Customer Churn dataset, sourced from Kaggle (https://www.kaggle.com/datasets/blastchar/telco-customer-churn). 
+It contains data on 7,043 customers of a telecom company and includes 21 features. The goal is to predict whether a customer will churn based on their contract type, 
+service usage, and charges. Key features include tenure, Contract, MonthlyCharges, TotalCharges, and InternetService, with the target variable being Churn.
