@@ -12,7 +12,7 @@ import joblib
 from transformxfunctionFinal import transformX
 import pandas as pd
 
-full_pipeline = joblib.load("full_pipeline.pkl")
+full_pipeline = joblib.load("src/full_pipeline.pkl")
 categorical_columns = joblib.load("categorical_columns.pkl")
 categorical_columns_two_options = joblib.load("categorical_columns_two_options.pkl")
 model = joblib.load("abFinal.pkl")
